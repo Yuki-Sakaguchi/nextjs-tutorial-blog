@@ -29,7 +29,7 @@ function Layout ({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <img src="/images/projile.png" className={`${stylres.headerImage} ${utilStyles.borderCircle}`} alt={name}/>
+                <img src="/images/profile.png" className={`${styles.headerImage} ${utilStyles.borderCircle}`} alt={name}/>
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
