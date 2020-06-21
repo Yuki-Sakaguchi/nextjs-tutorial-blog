@@ -9,7 +9,7 @@ import Link from 'next/link'
 const name = 'Yuki Sakaguchi'
 export const siteTitle = 'Next.js Sample Website'
 
-function Layout ({ children, home }) {
+function Layout ({ children, home = false }) {
   return (
     <div className={styles.container}>
       <Head>
